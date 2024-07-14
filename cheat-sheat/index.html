@@ -1,0 +1,695 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <title>HTML/CSS Cheat Sheet</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">HTML/CSS Cheat Sheat</h1>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">HTML</a>
+            <div class="dropdown-content">
+              <a href="#structure">Structure</a>
+              <a href="#text-content">Text content</a>
+              <a href="#text-formatting">Text formatting</a>
+              <a href="#lists">Lists</a>
+              <a href="#links">Links</a>
+              <a href="#tables">Tables</a>
+              <a href="#forms">Forms</a>
+              <a href="#semantic">Semantic</a>
+              <a href="#grouping">Grouping</a>
+              <a href="#meta">Meta</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">CSS</a>
+            <div class="dropdown-content">
+              <a href="#layout">layout</a>
+              <a href="#typography">Typography</a>
+              <a href="#color-background">Colors & Backgrounds</a>
+              <a href="#border">Borders</a>
+              <a href="#flexbox">Flexbox</a>
+              <a href="#grid">Grid</a>
+              <a href="#transition-animation">Transitions & Animations</a>
+              <a href="#other">Other</a>
+        </ul>
+      </nav>
+    </header>
+    <h2 id="section">HTML Tags</h2>
+    <h3><div id="structure">Document Structure Elements</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+        <td data-label="Tag"><span class="code">&lt;!DOCTYPE html&gt;</span></td>
+          <td data-label="Name">Document Type</td>
+          <td data-label="Description">Defines the document type which in this case is HTML5</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;html&gt;</span></td>
+          <td data-label="Name">HTML</td>
+          <td data-label="Description">The root element of an HTML page</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;head&gt;</span></td>
+          <td data-label="Name">Head</td>
+          <td data-label="Description">The head element contains information about the document</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;body&gt;</span></td>
+          <td data-label="Name">Body</td>
+          <td data-label="Description">The body element represents the visible content shown to the user</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;footer&gt;</span></td>
+          <td data-label="Name">Footer</td>
+          <td data-label="Description">The footer element represents a footer for a document or section</td>
+        </tr>
+        <tr>
+      </tbody>
+    </table>
+    <h3><div id="text-content">Text Content Elements</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;h1&gt; - &lt;h6&gt;</span></td>
+          <td data-label="Name">Heading 1 - 6</td>
+          <td data-label="Description">The h1 - h6 elements represent six levels of section headings</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;p&gt;</span></td>
+          <td data-label="Name">Paragraph</td>
+          <td data-label="Description">The p element represents a paragraph</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;br&gt;</span></td>
+          <td data-label="Name">Line Break</td>
+          <td data-label="Description">The br element represents a line break</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;hr&gt;</span></td>
+          <td data-label="Name">Horizontal Rule</td>
+          <td data-label="Description">The hr element represents a thematic change in the content</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="text-formatting">Text Formatting Elements</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;b&gt;</span></td>
+          <td data-label="Name">Bold</td>
+          <td data-label="Description">The b element represents bold text</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;strong&gt;</span></td>
+          <td data-label="Name">Strong</td>
+          <td data-label="Description">The strong element represents bold text</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;i&gt;</span></td>
+          <td data-label="Name">Italic</td>
+          <td data-label="Description">The i element represents italic text</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;em&gt;</span></td>
+          <td data-label="Name">Emphasis</td>
+          <td data-label="Description">The em element represents italic text</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;u&gt;</span></td>
+          <td data-label="Name">Underline</td>
+          <td data-label="Description">The u element represents underlined text</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;mark&gt;</span></td>
+          <td data-label="Name">Mark</td>
+          <td data-label="Description">The mark element represents text marked or highlighted</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="list">List Elements</div></h3> q1w
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th> 
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>  
+          <td data-label="Tag"><span class="code">&lt;ul&gt;</span></td>
+          <td data-label="Name">Unordered List</td> 
+          <td data-label="Description">The ul element represents an unordered list</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;ol&gt;</span></td>   
+          <td data-label="Name">Ordered List</td>
+          <td data-label="Description">The ol element represents an ordered list</td>
+        </tr>
+        <tr>  
+          <td data-label="Tag"><span class="code">&lt;li&gt;</span></td>
+          <td data-label="Name">List Item</td>
+          <td data-label="Description">The li element represents a list item</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;dl&gt;</span></td>
+          <td data-label="Name">Description List</td>
+          <td data-label="Description">The dl element represents a description list</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;dt&gt;</span></td>
+          <td data-label="Name">Description Term</td>
+          <td data-label="Description">The dt element represents a description term</td>
+        </tr>
+        <tr>
+          <td data-label="Tag"><span class="code">&lt;dd&gt;</span></td>
+          <td data-label="Name">Description Definition</td>
+          <td data-label="Description">The dd element represents a description definition</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="links">Links and Media Elements</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;a&gt;</span></td>
+          <td>Anchor</td>
+          <td>The a element represents a hyperlink</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;img&gt;</span></td>
+          <td>Image</td>
+          <td>The img element represents an image</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;video&gt;</span></td>
+          <td>Video</td>
+          <td>The video element represents a video</td>
+        </tr>
+        <tr>  
+          <td><span class="code">&lt;audio&gt;</span></td>
+          <td>Audio</td>
+          <td>The audio element represents an audio</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="tables">Table Elements</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;table&gt;</span></td>
+          <td>Table</td>
+          <td>The table element represents a table</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;caption&gt;</span></td>
+          <td>Table Caption</td>
+          <td>The caption element represents a table caption</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;colgroup&gt;</span></td>
+          <td>Column Group</td>
+          <td>The colgroup element represents a column group</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;col&gt;</span></td>
+          <td>Column</td>
+          <td>The col element represents a column</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tbody&gt;</span></td>
+          <td>Table Body</td>
+          <td>The tbody element represents a table body</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;th&gt;</span></td>
+          <td>Table Header</td>
+          <td>The th element represents a table header</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tr&gt;</span></td>
+          <td>Table Row</td>
+          <td>The tr element represents a table row</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;td&gt;</span></td>
+          <td>Table Data</td>
+          <td>The td element represents a table data</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;tfoot&gt;</span></td>
+          <td>Table Footer</td> 
+          <td>The tfoot element represents a table footer</td>
+        </tr> 
+      </tbody>
+    </table>
+    <h3><div id="forms">Form Elements</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;form&gt;</span></td>
+          <td>Form</td>
+          <td>The form element represents a form</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;input&gt;</span></td>
+          <td>Input</td>
+          <td>The input element represents an input control</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;label&gt;</span></td>
+          <td>Label</td>
+          <td>The label element represents a label</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;textarea&gt;</span></td> 
+          <td>Textarea</td>
+          <td>The textarea element defines a multi-line text input control</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;select&gt;</span></td>
+          <td>Select</td> 
+          <td>The select element defines a drop-down list</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;option&gt;</span></td>
+          <td>Option</td>
+          <td>The option element represents an option in a select list</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;button&gt;</span></td>
+          <td>Button</td>
+          <td>The button element represents a clickable button</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="semantic">Semantic Elements</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;header&gt;</span></td>
+          <td>Header</td>
+          <td>The header element represents a header</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;footer&gt;</span></td>
+          <td>Footer</td>
+          <td>The footer element represents a footer</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;main&gt;</span></td>
+          <td>Main</td>
+          <td>The main element represents the main content of a document</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;section&gt;</span></td>
+          <td>Section</td>  
+          <td>The section element represents a section of a document</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;nav&gt;</span></td>
+          <td>Navigation</td>
+          <td>The nav element represents a section of a document</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;aside&gt;</span></td>
+          <td>Aside</td>
+          <td>The aside element represents a section of a document</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="grouping">Grouping and Division Elements</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;div&gt;</span></td>
+          <td>Division</td>
+          <td>The div element represents a section in a document</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;span&gt;</span></td>
+          <td>Span</td>
+          <td>The span element represents a section in a document</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="meta">Metadata</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">&lt;meta&gt;</span></td>
+          <td>Meta</td>
+          <td>The meta element represents metadata</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;title&gt;</span></td>
+          <td>Title</td>
+          <td>The title element represents the title of a document</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;link&gt;</span></td>
+          <td>Link</td>
+          <td>The link element represents an external resource</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;style&gt;</span></td>
+          <td>Style</td>
+          <td>The style element represents a style</td>
+        </tr>
+        <tr>
+          <td><span class="code">&lt;script&gt;</span></td>
+          <td>Script</td>
+          <td>The script element represents a script</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2><span id="css">CSS Elements</span></h2>
+    <h3><div id="layout">Layout Properties</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">'display'</span></td>
+          <td>The display property specifies the type of rendering box.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'position'</span></td>
+          <td>The span element represents a section in a document</td>
+        </tr>
+        <tr>
+          <td><span class="code">'float'</span></td>
+          <td>The float property specifies how an element should float.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'clear'</span></td>
+          <td>The clear property specifies if an element can be floated.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'width'</span></td>
+          <td>The width property specifies the width of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'height'</span></td>
+          <td>The height property specifies the height of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'margin'</span></td>
+          <td>The margin property specifies the margin of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'padding'</span></td>
+          <td>The padding property specifies the padding of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'box-sizing'</span></td>
+          <td>The box-sizing property specifies how the total width and height of an element are calculated.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="typography">Typography Properties</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">'font-family'</span></td>
+          <td>The font-family property specifies the font family of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'font-size'</span></td>
+          <td>The font-size property specifies the font size of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'font-style'</span></td>
+          <td>The font-style property specifies the font style of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'font-weight'</span></td>
+          <td>The font-weight property specifies the font weight of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'text-align'</span></td>
+          <td>The text-align property specifies the text alignment of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'text-decoration'</span></td>
+          <td>The text-decoration property specifies the text decoration of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'text-transform'</span></td>
+          <td>The text-transform property specifies the text transform of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'letter-spacing'</span></td>
+          <td>The letter-spacing property specifies the letter spacing of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'word-spacing'</span></td>
+          <td>The word-spacing property specifies the word spacing of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'line-height'</span></td>
+          <td>The line-height property specifies the line height of an element.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="color-background">Color and Background Properties</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">'color'</span></td>
+          <td>The color property specifies the color of text.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'background-color'</span></td>
+          <td>The background-color property specifies the background color of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'background-image'</span></td>
+          <td>The background-image property specifies the background image of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'background-repeat'</span></td>
+          <td>The background-repeat property specifies whether the background image should be repeated.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'background-position'</span></td>
+          <td>The background-position property specifies the position of the background image.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'background-attachment'</span></td>
+          <td>The background-attachment property specifies whether the background image should be fixed or scroll.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'background-size'</span></td>
+          <td>The background-size property specifies the size of the background image.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'opacity'</span></td>
+          <td>The opacity property specifies the opacity of an element.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="border">Border Properties</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">'border'</span></td>
+          <td>The border property specifies the border of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'border-top'</span></td>
+          <td>The border-top property specifies the top border of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'border-right'</span></td>
+          <td>The border-right property specifies the right border of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'border-bottom'</span></td>
+          <td>The border-bottom property specifies the bottom border of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'border-left'</span></td>
+          <td>The border-left property specifies the left border of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'border-width'</span></td>
+          <td>The border-width property specifies the width of the border.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'border-style'</span></td>
+          <td>The border-style property specifies the style of the border.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'border-color'</span></td>
+          <td>The border-color property specifies the color of the border.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'border-radius'</span></td>
+          <td>The border-radius property specifies the border radius of an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'box-shadow'</span></td>
+          <td>The box-shadow property specifies the shadow of an element.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="flexbox">Flexbox Properties</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">'display'</span></td>
+          <td>The display property specifies the type of rendering box.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'flex-direction'</span></td>
+          <td>The flex-direction property specifies the direction of the flexible items.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'flex-wrap'</span></td>
+          <td>The flex-wrap property specifies whether the flexible items should wrap or not.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'justify-content'</span></td>
+          <td>The justify-content property specifies how the flexible items should be positioned in the flex container.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'align-items'</span></td>
+          <td>The align-items property specifies how the flexible items should be aligned in the flex container.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'align-content'</span></td>  
+          <td>The align-content property specifies how the flexible items should be aligned in the flex container when there is extra space in the cross-axis.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="grid">Grid Properties</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">'grid-template-columns'</span></td>
+          <td>The grid-template-columns property specifies the number of columns in the grid.</td>
+        </tr>
+        <tr>  
+          <td><span class="code">'grid-template-rows'</span></td>
+          <td>The grid-template-rows property specifies the number of rows in the grid.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'grid-column'</span></td>
+          <td>The grid-column property specifies the number of columns an element should span.</td> 
+        </tr>
+        <tr>
+          <td><span class="code">'grid-row'</span></td> 
+          <td>The grid-row property specifies the number of rows an element should span.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="transition-animation">Transition & Animation Properties</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">'transition'</span></td>
+          <td>The transition property specifies the animation effect.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'animation'</span></td>
+          <td>The animation property specifies the animation effect.</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3><div id="other">Other Properties</div></h3>
+    <table>
+      <thead>
+        <th>Tag</th>
+        <th>Description</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="code">'cursor'</span></td> 
+          <td>The cursor property specifies the mouse cursor to be displayed when the mouse pointer is over an element.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'overflow'</span></td>
+          <td>The overflow property specifies what should happen if content overflows an element's box.</td>
+        </tr>
+        <tr>
+          <td><span class="code">'z-index'</span></td>
+          <td>The z-index property specifies the stack order of an element.</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
