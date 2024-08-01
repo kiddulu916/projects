@@ -1,44 +1,92 @@
-.navbar {
-    background-image: url("../images/backgrounds/headerBG.jpg");
-    position: fixed;
-    top: 0px;
+body {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    margin: 0;
+    background-image: url(../images/backgrounds/mainBG.jpg);
     background-size: cover;
-    height: 50px;
-    width: 100%;
-    right: 0px;
+    background-repeat: no-repeat;
 }
 
-.navbar li {
-    display: inline-block;
-    padding: 0px 20px;
+.header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: rgb(12, 118, 126);
+    border-bottom: 3px solid rgb(0, 238, 255);
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: 55px;
+}
+
+#logo {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    text-align: left;
+    margin-left: 20px;
+    width: 50px;
+    height: 60px;
+    z-index: 1;
+}
+
+/* Navbar */
+
+.nav-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 15%;
+    right: 20px;
+    padding: 0;
+    border: 2px solid;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 15%;
+    z-index: 1;
+}
+
+.line {
+    width: 20px;
+    height: 3px;
+    background-color: black;
+    top: 20px;
+    padding: 1px;
+    margin-bottom: 4px;
+}
+
+.nav-menu {
+    display: none;
+    position: absolute;
+    width: 100px;
+    right: 20px;
+    top: 47px;
+    text-decoration: none;
+    background-color: grey;
+    opacity: 0.9;
+    min-width: 85px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10%;
+    border: 3px solid darkslategray; 
+    z-index: 1;
+}
+
+.nav-menu a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
     text-align: right;
 }
 
-.navbar a {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-
-.banner {
-    
-    color: white;
-    margin: 0px auto;
-    text-align: center;
-    padding: 0px 0px;
-    width: 100%;
-    height: 100%;
-}
-
-
-#about-me-header {
-    font-size: 25px;
-    color: blue;
-    text-align: center;
-    background-image: ./resources/images/background;
-}
-
-.bold {
-    font-weight: 900;
+.nav-btn:hover + .nav-menu, .nav-menu:hover, .nav-menu a:hover {
+    display: block;
+    color: darkslategrey;
 }
